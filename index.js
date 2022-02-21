@@ -1,7 +1,13 @@
 
-function showNumber(number) {
-    console.log(`El número ingresado" es ${number}`);
-};
+// function showNumber(number) {
+//     console.log(`El número ingresado" es ${number}`);
+// };
+
+function suma(a,b){
+    console.log (`La suma de ${a} mas ${b} es ${a+b}`)
+}
+
+suma(10,84)
 
 
 function resta(a,b){
