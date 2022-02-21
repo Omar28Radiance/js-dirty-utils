@@ -15,7 +15,12 @@ function resta(a,b){
 resta(15,5)
 
 const multiplicacion=(a,b)=> console.log(`La multiplicacion de ${a} por ${b} es ${a*b}`)
+
 multiplicacion(10,5)
+
+const division=(a,b)=> console.log(`La division de ${a} entre ${b} es ${a/b}`)
+
+division(100,25)
 /** 
  * @description console.log fn wrapper
  * @param {*} msn 
