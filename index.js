@@ -21,6 +21,14 @@ multiplicacion(10,5)
 const division=(a,b)=> console.log(`La division de ${a} entre ${b} es ${a/b}`)
 
 division(100,25)
+
+function numberMax(a, b) {
+    let numeroMayor = a > b ? a : b;
+    console.log(`Numero mayor de ${a} y ${b} es : ${numeroMayor} `);
+    return numberMax;
+}
+//en la linea donde se ubica "let numeroMayor" este se le como: "si a es mayor a b, entonces retorna a y si no retorna b"
+numberMax(39, 20);
 /** 
  * @description console.log fn wrapper
  * @param {*} msn 
