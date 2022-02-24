@@ -54,8 +54,16 @@ const add = (num1,num2) => logger(num1 + num2);
 
 //en la linea donde se ubica "let numeroMayor" este se le como: "si a es mayor a b, entonces retorna a y si no retorna b" y continuar desde minuto 23
 
-function obtenermenor(a,b) {
-    return Math.min(a,b);
+// function obtenermenor(a,b) {
+//     return Math.min(a,b);
+// }
+
+// obtenermenor(200, 250)
+
+const potenciDeDos = (n) => {
+    const calc = Math.pow(n, 2);
+    logger(`potencia dos de ${n} es ${calc}`)
+    return calc;
 }
 
-obtenermenor(200, 250)
+potenciDeDos(3);
