@@ -43,13 +43,19 @@
 const add = (num1,num2) => logger(num1 + num2);
 
 // add(1,2);
-const getGreater = (a,b) => {
-    const getNum = Math.max(a,b);
-    logger(`the greater num is ${getNum}`);
+// const getGreater = (a,b) => {
+//     const getNum = Math.max(a,b);
+//     logger(`the greater num is ${getNum}`);
 
-    return getNum;
-}
+//     return getNum;
+// }
 
-getGreater(200000,2000001);
+// getGreater(200000,2000001);
 
 //en la linea donde se ubica "let numeroMayor" este se le como: "si a es mayor a b, entonces retorna a y si no retorna b" y continuar desde minuto 23
+
+function obtenermenor(a,b) {
+    return Math.min(a,b);
+}
+
+obtenermenor(200, 250)
