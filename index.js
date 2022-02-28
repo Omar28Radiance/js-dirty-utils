@@ -67,3 +67,38 @@ const add = (num1,num2) => logger(num1 + num2);
 // }
 
 // potenciDeDos(3);
+
+// potenciDeDos(3);
+
+// function rounding(a) {
+//     let redondeo = a >= Math.trunc(a)+0.5 ? Math.ceil(a) : Math.floor(a);
+//     console.log(`El numero redondeado es : ${redondeo}`);
+//     return rounding;
+// }
+
+// rounding(3.4)
+
+const getSquare = (n) => {
+    const q = Math.sqrt(n);
+    console.log(`la raiz cuadrada de ${n} es ${q}`);
+    return q;
+}
+
+getSquare(133);
+
+// const getSquare = (n) => {
+//     const q = Math.sqrt(n);
+//     if (typeof n === 'string') {
+//         const parse = parseFloat(n);
+//         if (isNaN(parse)) {
+//             console.log('getSquare solo recibe un int');
+//         } else {
+//             console.log(`la raiz cuadarada de ${n} es ${q}`);
+//         }
+//     }
+//     console.log(`la raiz cuadrada de ${n} es ${q}`);
+//     return q;
+// }
+
+// getSquare(9);
+//continuar desde el momento 00:48:00 hasta momento 01:13:05
