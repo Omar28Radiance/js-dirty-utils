@@ -60,10 +60,10 @@ const add = (num1,num2) => logger(num1 + num2);
 
 // obtenermenor(200, 250)
 
-const potenciDeDos = (n) => {
-    const calc = Math.pow(n, 2);
-    logger(`potencia dos de ${n} es ${calc}`)
-    return calc;
-}
+// const potenciDeDos = (n) => {
+//     const calc = Math.pow(n, 2);
+//     logger(`potencia dos de ${n} es ${calc}`)
+//     return calc;
+// }
 
-potenciDeDos(3);
+// potenciDeDos(3);
