@@ -60,10 +60,42 @@ const add = (num1,num2) => logger(num1 + num2);
 
 // obtenermenor(200, 250)
 
-const potenciDeDos = (n) => {
-    const calc = Math.pow(n, 2);
-    logger(`potencia dos de ${n} es ${calc}`)
-    return calc;
+// const potenciDeDos = (n) => {
+//     const calc = Math.pow(n, 2);
+//     logger(`potencia dos de ${n} es ${calc}`)
+//     return calc;
+// }
+
+// potenciDeDos(3);
+
+// function rounding(a) {
+//     let redondeo = a >= Math.trunc(a)+0.5 ? Math.ceil(a) : Math.floor(a);
+//     console.log(`El numero redondeado es : ${redondeo}`);
+//     return rounding;
+// }
+
+// rounding(3.4)
+
+const getSquare = (n) => {
+    const q = Math.sqrt(n);
+    console.log(`la raiz cuadrada de ${n} es ${q}`);
+    return q;
 }
 
-potenciDeDos(3);
+getSquare(133);
+
+// const getSquare = (n) => {
+//     const q = Math.sqrt(n);
+//     if (typeof n === 'string') {
+//         const parse = parseFloat(n);
+//         if (isNaN(parse)) {
+//             console.log('getSquare solo recibe un int');
+//         } else {
+//             console.log(`la raiz cuadarada de ${n} es ${q}`);
+//         }
+//     }
+//     console.log(`la raiz cuadrada de ${n} es ${q}`);
+//     return q;
+// }
+
+// getSquare(9);
